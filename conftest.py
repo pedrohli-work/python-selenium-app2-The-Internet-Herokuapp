@@ -24,6 +24,10 @@ try:
     from selenium.webdriver.firefox.options import Options as FirefoxOptions
 except ImportError:
     FirefoxService = FirefoxOptions = None
+    
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 from utils.config_loader import CONFIG
 from utils.logger import get_logger
@@ -74,64 +78,58 @@ def _create_driver():
     # Edge driver setup
     # ----------------------------
     if browser == "edge":
-        # Detect OS
-        system = platform.system().lower()  # 'windows', 'linux', 'darwin'
+    from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
-        # Get driver path for the current OS
-        edge_path = CONFIG.get("drivers", {}).get("edge", {}).get(system)
-        if not edge_path:
-            raise RuntimeError(f"Edge driver path not defined in config.json for {system}")
-        if not Path(edge_path).exists():
-            raise FileNotFoundError(f"Edge driver not found for {system} at: {edge_path}")
+    edge_path = CONFIG.get("drivers", {}).get("edge", {}).get("path")
+    if not edge_path or not Path(edge_path).exists():
+        edge_path = EdgeChromiumDriverManager().install()
 
-        # Configure Edge options
-        options = EdgeOptions()
-        if headless:
-            options.add_argument("--headless=new")
-        options.add_argument(f"--window-size={width},{height}")
+    options = EdgeOptions()
+    if headless:
+        options.add_argument("--headless=new")
+    options.add_argument(f"--window-size={width},{height}")
 
-        # Create Edge WebDriver
-        service = EdgeService(executable_path=edge_path)
-        drv = webdriver.Edge(service=service, options=options)
+    service = EdgeService(executable_path=edge_path)
+    drv = webdriver.Edge(service=service, options=options)
 
     # ----------------------------
     # Chrome driver setup
     # ----------------------------
     elif browser == "chrome" and ChromeService and ChromeOptions:
-        chrome_path = CONFIG.get("drivers", {}).get("chrome", {}).get("path")
-        if not chrome_path:
-            raise RuntimeError("Chrome path driver not defined in config.json under drivers.chrome.path")
-        if not Path(chrome_path).exists():
-            raise FileNotFoundError(f"Chrome driver not found at: {chrome_path}")
-        
-        options = ChromeOptions()
-        if headless:
-            options.add_argument("--headless=new")
-        options.add_argument(f"--window-size={width},{height}")
+    from webdriver_manager.chrome import ChromeDriverManager
 
-        service = ChromeService(executable_path=chrome_path)
-        drv = webdriver.Chrome(service=service, options=options)
+    chrome_path = CONFIG.get("drivers", {}).get("chrome", {}).get("path")
+    if not chrome_path or not Path(chrome_path).exists():
+        chrome_path = ChromeDriverManager().install()
+
+    options = ChromeOptions()
+    if headless:
+        options.add_argument("--headless=new")
+    options.add_argument(f"--window-size={width},{height}")
+
+    service = ChromeService(executable_path=chrome_path)
+    drv = webdriver.Chrome(service=service, options=options)
     
     # ----------------------------
     # Firefox driver setup
     # ----------------------------
     elif browser == "firefox" and FirefoxService and FirefoxOptions:
-        gecko_path = CONFIG.get("drivers", {}).get("firefox", {}).get("path")
-        if not gecko_path:
-            raise RuntimeError("Firefox driver path not defined in config.json under drivers.firefox.path")     
-        if not Path(gecko_path).exists():
-            raise FileNotFoundError(f"Gecko driver not found at: {gecko_path}")
-        
-        options = FirefoxOptions()
-        if headless:
-            options.add_argument("--headless")
-        options.add_argument(f"--width={width}")
-        options.add_argument(f"--height={height}")
+    from webdriver_manager.firefox import GeckoDriverManager
 
-        service = FirefoxService(executable_path=gecko_path)
-        drv = webdriver.Firefox(service=service, options=options)
+    gecko_path = CONFIG.get("drivers", {}).get("firefox", {}).get("path")
+    if not gecko_path or not Path(gecko_path).exists():
+        gecko_path = GeckoDriverManager().install()
 
-        drv.set_window_size(width, height)
+    options = FirefoxOptions()
+    if headless:
+        options.add_argument("--headless")
+    options.add_argument(f"--width={width}")
+    options.add_argument(f"--height={height}")
+
+    service = FirefoxService(executable_path=gecko_path)
+    drv = webdriver.Firefox(service=service, options=options)
+
+    drv.set_window_size(width, height)
     
     else:
         raise ValueError(f"Unsupported or misconfigured browser in config.json: {browser}")
