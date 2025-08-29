@@ -8,8 +8,13 @@
 
     "drivers": {
         "edge": {
-            "windows": "drivers/edgedriver_win64/msedgedriver.exe",
-            "linux": "drivers/edgedriver_linux/msedgedriver"
+          "path": "drivers/edgedriver/msedgedriver"
+        },
+        "chrome": {
+          "path": "drivers/chromedriver/chromedriver"
+        },
+        "firefox": {
+          "path": "drivers/geckodriver/geckodriver"
         }
     },
     "credentials": {
