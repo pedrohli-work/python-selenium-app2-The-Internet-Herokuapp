@@ -1,0 +1,32 @@
+
+---
+
+## **2️⃣ .gitignore minimal e funcional**
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+*.sqlite3
+
+# Pytest reports
+reports/
+*.json
+*.html
+
+# Streamlit cache
+.streamlit/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db

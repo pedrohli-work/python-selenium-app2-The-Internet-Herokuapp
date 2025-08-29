@@ -1,0 +1,1804 @@
+2025-08-28 17:46:46,166 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:46:48,507 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 17:46:48,509 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 17:46:50,381 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 17:46:50,545 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 17:46:50,547 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 17:46:50,551 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 17:46:50,654 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 17:46:50,657 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 17:46:50,660 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 17:46:50,759 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 17:46:50,761 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 17:46:50,763 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 17:46:50,766 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 17:46:50,809 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 17:46:50,809 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 17:46:52,981 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:46:52,985 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:46:54,807 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 17:46:54,809 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 17:46:56,744 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 17:46:56,848 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 17:46:56,903 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 17:46:57,015 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 17:46:57,036 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 17:46:59,164 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:46:59,168 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:00,323 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 17:47:00,325 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 17:47:02,386 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 17:47:02,976 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 17:47:02,977 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 17:47:03,046 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 17:47:03,046 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 17:47:03,046 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 17:47:05,185 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:05,189 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:06,978 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 17:47:06,979 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 17:47:08,787 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 17:47:08,963 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 17:47:09,052 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 17:47:09,135 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 17:47:09,193 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 17:47:09,193 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 17:47:11,331 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:11,334 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:12,493 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 17:47:12,494 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 17:47:14,287 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 17:47:19,571 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 17:47:21,589 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 17:47:24,719 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 17:47:24,727 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 17:47:27,957 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 17:47:27,964 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 17:47:28,048 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 17:47:28,048 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 17:47:31,247 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 17:47:31,255 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 17:47:31,255 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 17:47:33,403 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:33,404 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:35,235 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 17:47:35,236 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 17:47:36,882 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 17:47:36,882 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 17:47:36,926 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 17:47:37,201 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 17:47:37,243 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 17:47:37,243 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 17:47:39,373 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:39,377 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:40,612 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 17:47:40,614 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 17:47:42,311 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 17:47:44,993 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 17:47:45,040 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 17:47:45,061 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 17:47:45,082 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 17:47:45,082 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 17:47:45,109 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 17:47:45,109 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 17:47:45,113 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 17:47:45,113 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 17:47:47,256 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:47,260 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:49,061 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 17:47:49,062 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 17:47:50,807 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 17:47:50,872 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 17:47:50,937 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 17:47:50,994 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 17:47:51,044 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 17:47:51,094 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 17:47:51,123 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 17:47:51,155 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 17:47:51,204 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 17:47:51,218 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 17:47:53,357 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:53,361 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:47:54,496 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 17:47:54,497 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 17:47:56,264 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 17:47:56,462 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 17:47:56,905 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 17:47:56,949 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 17:47:56,949 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 17:47:56,949 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 17:47:59,086 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:47:59,091 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:48:00,876 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 17:48:00,877 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 17:48:03,063 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 17:48:03,295 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 17:48:03,719 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 17:48:03,768 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 17:48:03,769 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 17:48:03,769 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 17:48:05,898 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 17:48:05,901 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1920,1080 timeout=10
+2025-08-28 17:48:07,682 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 17:48:07,683 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 17:48:09,318 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 17:48:09,491 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 17:48:09,498 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 17:48:09,498 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 17:48:09,661 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 17:48:09,672 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 17:48:09,689 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 17:48:09,695 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: 6F28E40A6A87C1E2094CBE0FFAE4ACD9
+2025-08-28 17:48:09,696 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 17:48:09,696 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 17:48:11,855 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 18:04:41,917 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:04:43,763 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=False
+2025-08-28 18:04:43,765 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 18:04:45,715 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 18:04:45,893 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 18:04:45,896 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 18:04:45,900 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 18:04:46,047 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 18:04:46,050 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 18:04:46,057 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 18:04:46,222 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 18:04:46,225 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 18:04:46,229 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 18:04:46,233 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 18:04:46,283 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 18:04:46,283 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 18:04:48,477 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:04:48,483 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:04:50,291 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_checkboxes | browser=edge | headless=False
+2025-08-28 18:04:50,293 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 18:04:52,355 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 18:04:52,496 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 18:04:52,545 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 18:04:52,648 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 18:04:52,669 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 18:04:54,843 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:04:54,847 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:04:56,668 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=False
+2025-08-28 18:04:56,669 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 18:04:58,799 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 18:04:59,376 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 18:04:59,377 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 18:04:59,448 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 18:04:59,448 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 18:04:59,448 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 18:05:01,588 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:01,592 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:03,385 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_dropdown | browser=edge | headless=False
+2025-08-28 18:05:03,386 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 18:05:05,266 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 18:05:05,423 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 18:05:05,483 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 18:05:05,522 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 18:05:05,600 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 18:05:05,600 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 18:05:07,732 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:07,735 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:08,939 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=False
+2025-08-28 18:05:08,940 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 18:05:10,576 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 18:05:15,879 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 18:05:17,886 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 18:05:21,066 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 18:05:21,078 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 18:05:24,395 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 18:05:24,408 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 18:05:24,526 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 18:05:24,526 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 18:05:27,798 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 18:05:27,813 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 18:05:27,813 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 18:05:29,989 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:29,995 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:31,798 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_file_upload | browser=edge | headless=False
+2025-08-28 18:05:31,799 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 18:05:33,331 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 18:05:33,332 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 18:05:33,383 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 18:05:33,771 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 18:05:33,808 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 18:05:33,809 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 18:05:35,975 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:35,979 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:37,170 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=False
+2025-08-28 18:05:37,170 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 18:05:38,881 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 18:05:40,216 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 18:05:40,256 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 18:05:40,281 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 18:05:40,300 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 18:05:40,300 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 18:05:40,325 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 18:05:40,325 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 18:05:40,330 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 18:05:40,330 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 18:05:42,501 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:42,504 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:44,287 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_inputs | browser=edge | headless=False
+2025-08-28 18:05:44,288 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 18:05:45,914 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 18:05:45,984 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 18:05:46,057 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 18:05:46,119 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 18:05:46,169 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 18:05:46,211 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 18:05:46,246 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 18:05:46,299 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 18:05:46,371 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 18:05:46,394 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 18:05:48,541 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:48,543 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:49,728 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_login_positive | browser=edge | headless=False
+2025-08-28 18:05:49,729 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 18:05:51,365 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 18:05:51,530 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 18:05:51,602 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 18:05:51,967 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 18:05:51,967 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 18:05:51,967 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 18:05:55,137 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:05:55,139 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:05:56,961 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_login_negative | browser=edge | headless=False
+2025-08-28 18:05:56,962 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 18:05:58,725 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 18:05:58,997 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 18:05:59,088 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 18:05:59,484 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 18:05:59,484 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 18:05:59,484 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 18:06:01,651 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:06:01,652 | INFO | driver_factory | conftest.py:68 | Initializing WebDriver | browser=edge headless=False window_size =1920,1080 timeout=10
+2025-08-28 18:06:03,461 | INFO | tests.driver | conftest.py:192 | WebDriver started for test: test_multiple_windows | browser=edge | headless=False
+2025-08-28 18:06:03,462 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 18:06:04,981 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 18:06:05,151 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 18:06:05,193 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 18:06:05,193 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 18:06:05,269 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 18:06:05,279 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 18:06:05,332 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 18:06:05,334 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: DEFCE5C983F95CD0B9F06B340F2CBE26
+2025-08-28 18:06:05,335 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 18:06:05,336 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 18:06:07,485 | INFO | tests.driver | conftest.py:218 | WebDriver quit successfully
+2025-08-28 18:25:45,613 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:25:47,376 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 18:25:47,377 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 18:25:48,978 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 18:25:49,049 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 18:25:49,050 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 18:25:49,053 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 18:25:49,112 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 18:25:49,113 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 18:25:49,116 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 18:25:49,182 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 18:25:49,184 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 18:25:49,185 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 18:25:49,187 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 18:25:49,231 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 18:25:49,231 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 18:25:51,361 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:25:51,365 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:25:52,562 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 18:25:52,562 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 18:25:54,096 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 18:25:54,169 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 18:25:54,190 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 18:25:54,266 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 18:25:54,285 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 18:25:56,436 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:25:56,438 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:25:57,549 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 18:25:57,551 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 18:25:59,047 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 18:25:59,620 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 18:25:59,620 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 18:25:59,662 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 18:25:59,662 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 18:25:59,662 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 18:26:01,776 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:01,780 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:02,892 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 18:26:02,894 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 18:26:04,345 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 18:26:04,427 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 18:26:04,468 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 18:26:04,505 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 18:26:04,539 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 18:26:04,539 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 18:26:06,651 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:06,654 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:07,768 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 18:26:07,769 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 18:26:09,264 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 18:26:14,533 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 18:26:16,599 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 18:26:19,745 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 18:26:19,757 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 18:26:23,179 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 18:26:23,210 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 18:26:23,392 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 18:26:23,392 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 18:26:26,642 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 18:26:26,653 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 18:26:26,653 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 18:26:28,758 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:28,761 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:30,575 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 18:26:30,576 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 18:26:32,070 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 18:26:32,070 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 18:26:32,107 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 18:26:32,340 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 18:26:32,370 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 18:26:32,370 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 18:26:34,485 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:34,489 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:35,592 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 18:26:35,593 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 18:26:37,119 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 18:26:38,045 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 18:26:38,078 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 18:26:38,119 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 18:26:38,129 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 18:26:38,129 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 18:26:38,138 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 18:26:38,138 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 18:26:38,140 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 18:26:38,140 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 18:26:40,261 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:40,264 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:41,976 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 18:26:41,977 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 18:26:43,476 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 18:26:43,524 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 18:26:43,562 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 18:26:43,597 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 18:26:43,628 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 18:26:43,660 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 18:26:43,688 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 18:26:43,720 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 18:26:43,767 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 18:26:43,779 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 18:26:45,899 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:45,903 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:47,032 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 18:26:47,033 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 18:26:48,610 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 18:26:48,725 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 18:26:48,778 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 18:26:49,097 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 18:26:49,097 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 18:26:49,097 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 18:26:51,211 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:51,214 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:52,331 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 18:26:52,331 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 18:26:53,930 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 18:26:54,029 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 18:26:54,083 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 18:26:54,409 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 18:26:54,410 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 18:26:54,410 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 18:26:56,528 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 18:26:56,532 | INFO | driver_factory | conftest.py:69 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 18:26:57,632 | INFO | tests.driver | conftest.py:220 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 18:26:57,633 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 18:26:59,064 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 18:26:59,171 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 18:26:59,176 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 18:26:59,177 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 18:26:59,312 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 18:26:59,318 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 18:26:59,334 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 18:26:59,336 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: BFE47197481573467A73E0F82B8D76AA
+2025-08-28 18:26:59,338 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 18:26:59,338 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 18:27:01,466 | INFO | tests.driver | conftest.py:246 | WebDriver quit successfully
+2025-08-28 20:09:39,321 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:09:41,440 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 20:09:41,442 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 20:09:43,017 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 20:09:43,090 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 20:09:43,092 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 20:09:43,094 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 20:09:43,159 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 20:09:43,160 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 20:09:43,164 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 20:09:43,223 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 20:09:43,224 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 20:09:43,225 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 20:09:43,228 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 20:09:43,263 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 20:09:43,263 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 20:09:45,396 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:09:45,403 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:09:46,524 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 20:09:46,526 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 20:09:47,975 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 20:09:48,051 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 20:09:48,072 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 20:09:48,148 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 20:09:48,167 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 20:09:50,274 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:09:50,277 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:09:51,395 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 20:09:51,396 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 20:09:52,829 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 20:09:53,408 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 20:09:53,408 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 20:09:53,453 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 20:09:53,453 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 20:09:53,453 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 20:09:55,559 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:09:55,563 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:09:56,700 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 20:09:56,701 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 20:09:58,168 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 20:09:58,249 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 20:09:58,290 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 20:09:58,327 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 20:09:58,360 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 20:09:58,360 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 20:10:00,457 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:00,460 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:01,580 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 20:10:01,581 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 20:10:03,041 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 20:10:08,324 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 20:10:10,355 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 20:10:13,459 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 20:10:13,467 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 20:10:16,730 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 20:10:16,738 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 20:10:16,809 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 20:10:16,809 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 20:10:20,033 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 20:10:20,043 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 20:10:20,043 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 20:10:22,203 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:22,206 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:23,989 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 20:10:23,990 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 20:10:25,508 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 20:10:25,508 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 20:10:25,552 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 20:10:25,785 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 20:10:25,812 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 20:10:25,812 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 20:10:27,975 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:27,978 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:29,148 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 20:10:29,169 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 20:10:30,631 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 20:10:31,927 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 20:10:31,966 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 20:10:31,981 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 20:10:31,989 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 20:10:31,989 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 20:10:32,000 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 20:10:32,000 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 20:10:32,002 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 20:10:32,002 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 20:10:34,110 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:34,113 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:35,879 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 20:10:35,881 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 20:10:37,363 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 20:10:37,419 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 20:10:37,459 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 20:10:37,494 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 20:10:37,524 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 20:10:37,557 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 20:10:37,586 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 20:10:37,619 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 20:10:37,678 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 20:10:37,693 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 20:10:39,814 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:39,817 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:40,931 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 20:10:40,933 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 20:10:42,567 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 20:10:42,712 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 20:10:43,101 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 20:10:43,129 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 20:10:43,129 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 20:10:43,129 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 20:10:45,243 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:45,246 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:46,367 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 20:10:46,367 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 20:10:47,994 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 20:10:48,104 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 20:10:48,175 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 20:10:48,595 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 20:10:48,596 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 20:10:48,596 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 20:10:50,708 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:10:50,712 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:10:51,821 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 20:10:51,822 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 20:10:53,288 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 20:10:53,403 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 20:10:53,407 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 20:10:53,407 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 20:10:53,554 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 20:10:53,563 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 20:10:53,577 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 20:10:53,581 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: 4C02A7E00E7E08BF9226B6A3C56D1D11
+2025-08-28 20:10:53,582 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 20:10:53,582 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 20:10:55,697 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:14:26,985 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:14:28,781 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 20:14:28,783 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 20:14:30,289 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 20:14:30,364 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 20:14:30,365 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 20:14:30,367 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 20:14:30,421 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 20:14:30,422 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 20:14:30,425 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 20:14:30,478 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 20:14:30,479 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 20:14:30,480 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 20:14:30,482 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 20:14:30,503 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 20:14:30,504 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 20:14:32,614 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:14:32,618 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:14:33,725 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 20:14:33,726 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 20:14:35,166 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 20:14:35,240 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 20:14:35,261 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 20:14:35,340 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 20:14:35,361 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 20:14:37,482 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:14:37,485 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:14:38,597 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 20:14:38,598 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 20:14:40,029 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 20:14:40,621 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 20:14:40,621 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 20:14:40,665 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 20:14:40,665 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 20:14:40,665 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 20:14:42,781 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:14:42,783 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:14:43,895 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 20:14:43,897 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 20:14:45,404 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 20:14:45,485 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 20:14:45,527 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 20:14:45,563 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 20:14:45,595 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 20:14:45,596 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 20:14:47,703 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:14:47,706 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:14:48,818 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 20:14:48,819 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 20:14:50,258 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 20:14:55,520 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 20:14:57,571 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 20:15:00,697 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 20:15:00,707 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 20:15:03,979 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 20:15:03,987 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 20:15:04,048 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 20:15:04,049 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 20:15:07,290 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 20:15:07,297 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 20:15:07,298 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 20:15:09,435 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:09,439 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:11,183 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 20:15:11,184 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 20:15:14,127 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 20:15:14,127 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 20:15:14,168 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 20:15:14,400 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 20:15:14,428 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 20:15:14,428 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 20:15:16,531 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:16,534 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:18,284 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 20:15:18,286 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 20:15:19,768 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 20:15:20,460 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 20:15:20,515 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 20:15:20,526 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 20:15:20,533 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 20:15:20,533 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 20:15:20,542 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 20:15:20,542 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 20:15:20,543 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 20:15:20,543 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 20:15:22,656 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:22,659 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:23,773 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 20:15:23,774 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 20:15:25,257 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 20:15:25,305 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 20:15:25,343 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 20:15:25,377 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 20:15:25,407 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 20:15:25,439 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 20:15:25,467 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 20:15:25,500 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 20:15:25,546 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 20:15:25,558 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 20:15:27,679 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:27,682 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:28,831 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 20:15:28,832 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 20:15:30,386 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 20:15:30,492 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 20:15:30,547 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 20:15:30,863 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 20:15:30,864 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 20:15:30,864 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 20:15:32,964 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:32,967 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:34,109 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 20:15:34,110 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 20:15:35,696 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 20:15:35,798 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 20:15:35,852 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 20:15:36,176 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 20:15:36,176 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 20:15:36,176 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 20:15:38,294 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 20:15:38,297 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 20:15:39,412 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 20:15:39,413 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 20:15:40,846 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 20:15:40,955 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 20:15:40,959 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 20:15:40,960 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 20:15:41,099 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 20:15:41,106 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 20:15:41,119 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 20:15:41,125 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: DFCC7EAD80C3D111DAB4BB5CFCBF5FA4
+2025-08-28 20:15:41,125 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 20:15:41,126 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 20:15:43,233 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:06:17,727 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:06:19,752 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 21:06:19,753 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 21:06:21,667 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 21:06:21,791 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 21:06:21,792 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 21:06:21,796 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:06:21,950 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 21:06:21,954 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 21:06:21,959 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 21:06:22,133 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 21:06:22,135 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 21:06:22,137 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 21:06:22,141 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:06:22,215 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 21:06:22,215 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 21:06:24,374 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:06:24,380 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:06:26,159 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 21:06:26,160 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 21:06:27,708 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 21:06:27,888 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 21:06:27,949 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 21:06:28,139 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 21:06:28,178 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 21:06:30,314 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:06:30,317 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:06:31,464 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 21:06:31,467 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 21:06:33,535 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 21:06:34,128 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 21:06:34,129 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 21:06:34,184 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 21:06:34,184 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 21:06:34,185 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 21:06:36,338 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:06:36,340 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:06:38,113 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 21:06:38,115 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 21:06:40,104 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 21:06:40,279 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 21:06:40,394 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 21:06:40,503 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 21:06:40,603 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 21:06:40,603 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 21:06:42,721 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:06:42,724 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:06:44,490 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 21:06:44,493 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 21:06:46,471 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 21:06:51,737 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 21:06:53,759 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 21:06:56,947 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 21:06:56,967 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 21:07:00,469 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 21:07:00,498 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 21:07:00,774 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 21:07:00,775 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 21:07:04,150 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 21:07:04,172 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 21:07:04,172 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 21:07:06,396 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:06,399 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:08,217 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 21:07:08,220 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 21:07:09,785 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 21:07:09,786 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 21:07:09,823 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 21:07:10,092 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 21:07:10,139 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 21:07:10,139 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 21:07:12,316 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:12,319 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:13,724 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 21:07:13,726 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 21:07:15,218 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 21:07:16,794 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 21:07:16,856 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 21:07:16,890 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 21:07:16,916 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 21:07:16,917 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 21:07:16,941 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 21:07:16,942 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 21:07:16,946 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 21:07:16,947 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 21:07:19,112 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:19,115 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:20,922 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 21:07:20,925 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 21:07:22,895 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 21:07:22,961 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 21:07:23,066 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 21:07:23,147 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 21:07:23,237 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 21:07:23,321 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 21:07:23,385 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 21:07:23,460 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 21:07:23,691 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 21:07:23,713 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 21:07:25,878 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:25,880 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:27,733 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 21:07:27,735 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 21:07:29,375 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:07:29,534 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 21:07:29,609 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:07:30,051 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 21:07:30,051 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 21:07:30,051 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 21:07:32,202 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:32,206 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:33,360 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 21:07:33,362 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 21:07:35,019 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:07:35,171 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 21:07:35,239 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:07:35,615 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 21:07:35,615 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 21:07:35,615 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 21:07:37,750 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:07:37,751 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:07:39,216 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 21:07:39,218 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 21:07:41,249 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 21:07:41,467 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 21:07:41,472 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 21:07:41,472 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 21:07:41,640 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 21:07:41,652 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 21:07:41,675 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 21:07:41,684 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: FCB5DBCE41BFF55B074FC19226527724
+2025-08-28 21:07:41,687 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 21:07:41,687 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 21:07:43,840 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:17:53,148 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:17:55,008 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 21:17:55,010 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 21:17:56,974 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:17:57,218 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 21:17:57,839 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:17:57,924 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 21:17:57,924 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 21:17:57,924 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 21:18:00,108 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:18:00,112 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:18:02,007 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 21:18:02,008 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 21:18:04,335 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:18:04,672 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 21:18:05,247 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:18:05,340 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 21:18:05,341 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 21:18:05,341 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 21:18:07,546 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:22:58,885 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:00,742 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 21:23:00,744 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 21:23:02,484 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 21:23:02,613 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 21:23:02,615 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 21:23:02,619 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:23:02,756 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 21:23:02,759 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 21:23:02,764 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 21:23:02,922 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 21:23:02,924 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 21:23:02,927 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 21:23:02,931 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:23:02,995 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 21:23:02,996 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 21:23:05,122 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:05,126 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:06,427 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 21:23:06,429 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 21:23:07,915 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 21:23:08,031 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 21:23:08,066 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 21:23:08,210 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 21:23:08,264 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 21:23:10,419 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:10,422 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:11,734 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 21:23:11,737 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 21:23:13,400 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 21:23:13,996 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 21:23:13,997 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 21:23:14,117 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 21:23:14,117 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 21:23:14,117 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 21:23:16,308 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:16,311 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:18,110 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 21:23:18,112 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 21:23:19,736 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 21:23:19,909 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 21:23:20,015 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 21:23:20,111 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 21:23:20,187 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 21:23:20,187 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 21:23:22,351 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:22,354 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:23,668 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 21:23:23,670 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 21:23:25,497 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 21:23:30,837 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 21:23:32,865 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 21:23:36,091 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 21:23:36,110 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 21:23:39,675 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 21:23:39,708 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 21:23:39,982 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 21:23:39,983 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 21:23:43,375 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 21:23:43,407 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 21:23:43,408 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 21:23:45,676 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:45,679 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:47,475 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 21:23:47,476 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 21:23:49,145 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 21:23:49,146 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 21:23:49,203 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 21:23:49,515 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 21:23:49,563 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 21:23:49,563 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 21:23:51,711 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:51,713 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:52,854 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 21:23:52,857 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 21:23:54,344 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 21:23:55,486 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 21:23:55,522 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 21:23:55,539 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 21:23:55,554 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 21:23:55,554 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 21:23:55,578 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 21:23:55,579 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 21:23:55,584 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 21:23:55,584 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 21:23:57,722 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:23:57,725 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:23:59,500 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 21:23:59,501 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 21:24:01,096 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 21:24:01,165 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 21:24:01,223 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 21:24:01,271 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 21:24:01,314 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 21:24:01,355 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 21:24:01,391 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 21:24:01,604 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 21:24:01,687 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 21:24:01,718 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 21:24:03,855 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:24:03,856 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:24:05,036 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 21:24:05,038 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 21:24:06,760 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:24:06,925 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 21:24:07,005 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:24:07,352 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 21:24:07,353 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 21:24:07,353 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 21:24:09,489 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:24:09,492 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:24:10,794 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 21:24:10,796 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 21:24:12,613 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:24:12,782 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 21:24:12,883 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:24:13,233 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 21:24:13,233 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 21:24:13,233 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 21:24:15,385 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:24:15,388 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:24:17,202 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 21:24:17,205 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 21:24:19,116 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 21:24:19,257 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 21:24:19,265 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 21:24:19,266 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 21:24:19,422 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 21:24:19,437 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 21:24:19,456 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 21:24:19,463 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: BE5E8391702E03A080259869BB6A6859
+2025-08-28 21:24:19,466 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 21:24:19,466 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 21:24:21,630 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:10,193 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:29:12,037 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 21:29:12,038 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 21:29:13,848 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 21:29:14,008 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 21:29:14,010 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 21:29:14,014 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:29:14,166 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 21:29:14,170 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 21:29:14,174 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 21:29:14,355 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 21:29:14,358 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 21:29:14,361 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 21:29:14,366 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:29:14,436 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 21:29:14,437 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 21:29:16,595 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:16,599 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:29:18,397 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 21:29:18,402 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 21:29:20,390 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 21:29:20,558 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 21:29:20,616 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 21:29:20,878 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 21:29:20,935 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 21:29:23,096 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:23,099 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:29:24,892 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 21:29:24,896 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 21:29:25,438 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 21:29:27,022 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 21:29:27,022 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 21:29:27,117 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 21:29:27,118 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 21:29:27,118 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 21:29:29,275 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:29,278 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:29:30,463 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 21:29:30,466 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 21:29:32,295 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 21:29:32,537 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 21:29:32,660 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 21:29:32,780 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 21:29:32,892 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 21:29:32,893 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 21:29:35,078 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:35,081 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:29:36,889 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 21:29:36,891 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 21:29:37,489 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 21:29:43,946 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 21:29:45,958 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 21:29:49,218 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 21:29:49,236 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 21:29:52,815 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 21:29:52,849 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 21:29:53,135 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 21:29:53,136 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 21:29:56,547 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 21:29:56,580 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 21:29:56,581 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 21:29:58,910 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:29:58,913 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:00,710 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 21:30:00,713 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 21:30:01,274 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 21:30:01,275 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 21:30:02,656 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 21:30:02,948 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 21:30:03,019 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 21:30:03,019 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 21:30:05,183 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:30:05,187 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:07,054 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 21:30:07,057 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 21:30:09,172 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 21:30:10,680 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 21:30:10,748 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 21:30:10,791 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 21:30:10,829 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 21:30:10,829 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 21:30:10,862 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 21:30:10,862 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 21:30:10,869 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 21:30:10,870 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 21:30:13,047 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:30:13,050 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:14,865 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 21:30:14,869 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 21:30:15,422 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 21:30:16,491 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 21:30:16,604 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 21:30:16,699 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 21:30:16,791 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 21:30:16,895 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 21:30:16,973 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 21:30:17,076 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 21:30:17,252 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 21:30:17,295 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 21:30:19,427 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:30:19,430 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:21,218 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 21:30:21,219 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 21:30:21,704 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:30:23,336 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 21:30:23,910 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:30:23,992 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 21:30:23,993 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 21:30:23,993 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 21:30:26,198 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:30:26,202 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:28,015 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 21:30:28,018 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 21:30:29,660 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:30:29,892 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 21:30:30,401 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:30:30,471 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 21:30:30,472 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 21:30:30,472 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 21:30:32,614 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:30:32,618 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:30:34,408 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 21:30:34,411 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 21:30:35,987 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 21:30:36,191 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 21:30:36,200 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 21:30:36,200 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 21:30:36,351 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 21:30:36,366 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 21:30:36,389 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 21:30:36,394 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: F1995ACEC25B7791C0D81720594228FD
+2025-08-28 21:30:36,397 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 21:30:36,397 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 21:30:38,545 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:37:30,855 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:37:32,662 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 21:37:32,663 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 21:37:34,179 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 21:37:34,326 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 21:37:34,329 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 21:37:34,333 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:37:34,467 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 21:37:34,469 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 21:37:34,472 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 21:37:34,584 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 21:37:34,586 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 21:37:34,588 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 21:37:34,591 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:37:34,635 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 21:37:34,635 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 21:37:36,802 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:48:14,165 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:48:16,203 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 21:48:16,205 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 21:48:18,418 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 21:48:18,641 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 21:48:18,644 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 21:48:18,649 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:48:18,792 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 21:48:18,796 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 21:48:18,801 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 21:48:18,960 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 21:48:18,962 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 21:48:18,965 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 21:48:18,967 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 21:48:19,031 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 21:48:19,031 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 21:48:21,222 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:48:21,225 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:48:23,005 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 21:48:23,006 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 21:48:24,612 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 21:48:24,768 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 21:48:24,990 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 21:48:25,105 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 21:48:25,138 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 21:48:27,273 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:48:27,276 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:48:28,569 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 21:48:28,572 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 21:48:30,394 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 21:48:30,970 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 21:48:30,971 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 21:48:31,066 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 21:48:31,066 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 21:48:31,066 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 21:48:33,201 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:48:33,203 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:48:34,969 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 21:48:34,971 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 21:48:36,818 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 21:48:36,966 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 21:48:37,036 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 21:48:37,099 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 21:48:37,174 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 21:48:37,174 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 21:48:39,331 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:48:39,333 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:48:40,737 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 21:48:40,740 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 21:48:42,469 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 21:48:47,750 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 21:48:49,823 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 21:48:53,012 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 21:48:53,028 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 21:48:56,562 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 21:48:56,580 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 21:48:56,773 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 21:48:56,773 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 21:49:00,113 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 21:49:00,137 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 21:49:00,137 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 21:49:02,379 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:02,381 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:04,148 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 21:49:04,150 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 21:49:06,047 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 21:49:06,048 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 21:49:06,088 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 21:49:06,179 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 21:49:06,440 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 21:49:06,440 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 21:49:08,550 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:08,554 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:10,088 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 21:49:10,091 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 21:49:11,560 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 21:49:12,448 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 21:49:12,477 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 21:49:12,492 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 21:49:12,503 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 21:49:12,503 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 21:49:12,532 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-28 21:49:12,532 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-28 21:49:12,535 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-28 21:49:12,536 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-28 21:49:14,689 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:14,691 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:16,476 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 21:49:16,478 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 21:49:18,168 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 21:49:18,261 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 21:49:18,341 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 21:49:18,434 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 21:49:18,486 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 21:49:18,559 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 21:49:18,778 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 21:49:18,891 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 21:49:19,042 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 21:49:19,082 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 21:49:21,227 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:21,232 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:23,078 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 21:49:23,082 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 21:49:24,820 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:49:25,023 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 21:49:25,491 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:49:25,566 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 21:49:25,567 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 21:49:25,567 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 21:49:27,744 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:27,747 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:29,559 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 21:49:29,562 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 21:49:31,322 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 21:49:31,520 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 21:49:31,590 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 21:49:32,012 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 21:49:32,013 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 21:49:32,013 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 21:49:34,180 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 21:49:34,183 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 21:49:35,991 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 21:49:35,994 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 21:49:37,927 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 21:49:38,134 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 21:49:38,142 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 21:49:38,142 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 21:49:38,291 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 21:49:38,303 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 21:49:38,365 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 21:49:38,368 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: 4E62957FFA79522A73FD521F96E4D6D8
+2025-08-28 21:49:38,370 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 21:49:38,371 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 21:49:40,531 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:32:25,804 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:32:27,806 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-28 22:32:27,807 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-28 22:32:29,684 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-28 22:32:29,877 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-28 22:32:29,879 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-28 22:32:29,883 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 22:32:30,031 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-28 22:32:30,034 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-28 22:32:30,037 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-28 22:32:30,263 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-28 22:32:30,267 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-28 22:32:30,271 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-28 22:32:30,278 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-28 22:32:30,369 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-28 22:32:30,369 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-28 22:32:32,558 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:32:32,562 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:32:34,351 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-28 22:32:34,353 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-28 22:32:35,984 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-28 22:32:36,150 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-28 22:32:36,197 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-28 22:32:36,390 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-28 22:32:36,434 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-28 22:32:38,605 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:32:38,608 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:32:39,788 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-28 22:32:39,790 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-28 22:32:41,397 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-28 22:32:41,994 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-28 22:32:41,994 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-28 22:32:42,071 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-28 22:32:42,071 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-28 22:32:42,071 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-28 22:32:44,202 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:32:44,204 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:32:45,363 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-28 22:32:45,366 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-28 22:32:47,132 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-28 22:32:47,268 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-28 22:32:47,336 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-28 22:32:47,386 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-28 22:32:47,432 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-28 22:32:47,432 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-28 22:32:49,557 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:32:49,560 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:32:50,741 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-28 22:32:50,743 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-28 22:32:52,483 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-28 22:32:57,760 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-28 22:32:59,800 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-28 22:33:02,992 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-28 22:33:03,014 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-28 22:33:06,616 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-28 22:33:06,651 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-28 22:33:06,904 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-28 22:33:06,905 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-28 22:33:10,332 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-28 22:33:10,377 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-28 22:33:10,377 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-28 22:33:12,653 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:12,656 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:14,437 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-28 22:33:14,439 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-28 22:33:16,131 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-28 22:33:16,131 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-28 22:33:16,194 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-28 22:33:16,517 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-28 22:33:16,595 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-28 22:33:16,595 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-28 22:33:18,741 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:18,743 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:20,065 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-28 22:33:20,067 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-28 22:33:21,654 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-28 22:33:22,861 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-28 22:33:22,922 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-28 22:33:22,959 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-28 22:33:23,005 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-28 22:33:23,006 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-28 22:33:23,151 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Your content goes here.
+2025-08-28 22:33:23,512 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250828_223323.png
+NoneType: None
+2025-08-28 22:33:25,674 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:25,678 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:27,503 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-28 22:33:27,505 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-28 22:33:29,128 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-28 22:33:29,220 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-28 22:33:29,303 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-28 22:33:29,397 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-28 22:33:29,469 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-28 22:33:29,574 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-28 22:33:29,667 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-28 22:33:29,773 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-28 22:33:29,919 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-28 22:33:29,956 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-28 22:33:32,101 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:32,104 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:33,892 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-28 22:33:33,894 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-28 22:33:35,714 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 22:33:35,948 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-28 22:33:36,494 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 22:33:36,572 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-28 22:33:36,572 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-28 22:33:36,572 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-28 22:33:38,821 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:38,823 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:40,638 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-28 22:33:40,639 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-28 22:33:42,589 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-28 22:33:42,874 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-28 22:33:43,479 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-28 22:33:43,586 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-28 22:33:43,586 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-28 22:33:43,586 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-28 22:33:45,772 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-28 22:33:45,777 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-28 22:33:47,560 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-28 22:33:47,563 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-28 22:33:49,500 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-28 22:33:49,714 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-28 22:33:49,722 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-28 22:33:49,722 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-28 22:33:49,881 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-28 22:33:49,902 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-28 22:33:49,936 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-28 22:33:49,945 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: C1630C4023FEC802E35A5F4DB34A8FD6
+2025-08-28 22:33:49,949 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-28 22:33:49,949 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-28 22:33:52,124 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 11:11:55,446 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 11:11:57,411 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 11:11:57,413 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 11:11:59,226 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 11:12:00,908 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-29 11:12:00,983 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-29 11:12:01,027 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-29 11:12:01,067 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-29 11:12:01,067 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-29 11:12:01,103 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Hello, this is a test!
+2025-08-29 11:12:01,103 | INFO | TestFrames | test_frames.py:54 | Iframe text verified successfully
+2025-08-29 11:12:01,111 | INFO | FramesPage | frames_page.py:85 | Switched back to default content
+2025-08-29 11:12:01,112 | INFO | TestFrames | test_frames.py:58 | Iframe text editing test completed successfully
+2025-08-29 11:12:03,315 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 11:59:52,928 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 11:59:54,852 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 11:59:54,854 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 11:59:56,378 | INFO | FramesPage | frames_page.py:47 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 11:59:57,916 | INFO | FramesPage | frames_page.py:61 | Clicked iframe link
+2025-08-29 11:59:57,946 | INFO | FramesPage | frames_page.py:76 | Switched to iframe
+2025-08-29 12:00:08,168 | ERROR | FramesPage | frames_page.py:100 | Timeout: TinyMCE editor not ready
+Traceback (most recent call last):
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\pages\frames_page.py", line 93, in wait_for_tinymce_ready
+    self.wait.until(
+    ~~~~~~~~~~~~~~~^
+        lambda d: d.execute_script(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            "return typeof tinymce !== 'undefined' && tinymce.activeEditor != null"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-08-29 12:00:08,353 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250829_120008.png
+NoneType: None
+2025-08-29 12:00:10,500 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:00:47,301 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:00:49,141 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 12:00:49,142 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 12:00:50,674 | INFO | FramesPage | frames_page.py:47 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 12:00:51,677 | INFO | FramesPage | frames_page.py:61 | Clicked iframe link
+2025-08-29 12:00:51,728 | INFO | FramesPage | frames_page.py:76 | Switched to iframe
+2025-08-29 12:01:25,904 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:01:27,679 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-29 12:01:27,681 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-29 12:01:29,188 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-29 12:01:29,262 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-29 12:01:29,263 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-29 12:01:29,266 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-29 12:01:29,325 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-29 12:01:29,326 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-29 12:01:29,328 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-29 12:01:29,378 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-29 12:01:29,379 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-29 12:01:29,380 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-29 12:01:29,384 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-29 12:01:29,409 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-29 12:01:29,409 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-29 12:01:31,516 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:01:31,519 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:01:32,656 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-29 12:01:32,657 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-29 12:01:34,140 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-29 12:01:34,214 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-29 12:01:34,237 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-29 12:01:34,315 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-29 12:01:34,334 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-29 12:01:36,448 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:01:36,451 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:01:37,564 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-29 12:01:37,566 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-29 12:01:39,007 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-29 12:01:39,604 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-29 12:01:39,604 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-29 12:01:39,655 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-29 12:01:39,655 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-29 12:01:39,655 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-29 12:01:41,732 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:01:41,735 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:01:42,849 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-29 12:01:42,850 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-29 12:01:44,412 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-29 12:01:44,504 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-29 12:01:44,545 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-29 12:01:44,582 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-29 12:01:44,615 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-29 12:01:44,615 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-29 12:01:46,682 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:01:46,685 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:01:47,802 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-29 12:01:47,804 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-29 12:01:49,258 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-29 12:01:54,524 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-29 12:01:56,547 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-29 12:01:59,719 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-29 12:01:59,725 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-29 12:02:03,086 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-29 12:02:03,109 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-29 12:02:03,226 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-29 12:02:03,226 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-29 12:02:06,455 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-29 12:02:06,477 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-29 12:02:06,477 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-29 12:02:08,615 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:08,617 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:10,358 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-29 12:02:10,360 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-29 12:02:12,005 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-29 12:02:12,005 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-29 12:02:12,049 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-29 12:02:12,111 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-29 12:02:12,843 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-29 12:02:12,843 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-29 12:02:14,979 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:14,982 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:16,721 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 12:02:16,722 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 12:02:18,206 | INFO | FramesPage | frames_page.py:47 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 12:02:18,993 | INFO | FramesPage | frames_page.py:61 | Clicked iframe link
+2025-08-29 12:02:19,022 | INFO | FramesPage | frames_page.py:76 | Switched to iframe
+2025-08-29 12:02:29,261 | ERROR | FramesPage | frames_page.py:100 | Timeout: TinyMCE editor not ready
+Traceback (most recent call last):
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\pages\frames_page.py", line 93, in wait_for_tinymce_ready
+    self.wait.until(
+    ~~~~~~~~~~~~~~~^
+        lambda d: d.execute_script(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            "return typeof tinymce !== 'undefined' && tinymce.activeEditor != null"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-08-29 12:02:29,425 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250829_120229.png
+NoneType: None
+2025-08-29 12:02:31,564 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:31,568 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:33,310 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-29 12:02:33,312 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-29 12:02:34,901 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-29 12:02:34,952 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-29 12:02:34,990 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-29 12:02:35,025 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-29 12:02:35,058 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-29 12:02:35,109 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-29 12:02:35,138 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-29 12:02:35,173 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-29 12:02:35,225 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-29 12:02:35,238 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-29 12:02:37,364 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:37,367 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:38,501 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-29 12:02:38,503 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-29 12:02:40,194 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-29 12:02:40,318 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-29 12:02:40,373 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-29 12:02:40,750 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-29 12:02:40,750 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-29 12:02:40,750 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-29 12:02:42,850 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:42,852 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:43,993 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-29 12:02:43,994 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-29 12:02:45,791 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-29 12:02:45,892 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-29 12:02:46,328 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-29 12:02:46,356 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-29 12:02:46,356 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-29 12:02:46,356 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-29 12:02:48,449 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:02:48,452 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:02:49,583 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-29 12:02:49,584 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-29 12:02:51,145 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-29 12:02:51,255 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-29 12:02:51,261 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-29 12:02:51,261 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-29 12:02:51,455 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-29 12:02:51,461 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-29 12:02:51,479 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-29 12:02:51,482 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: 8C4F26A502C8CD8692543EE231B33A6B
+2025-08-29 12:02:51,484 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-29 12:02:51,484 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-29 12:02:53,596 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:08:15,405 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:08:16,595 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 12:08:16,596 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 12:08:18,104 | INFO | FramesPage | frames_page.py:47 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 12:08:19,007 | INFO | FramesPage | frames_page.py:61 | Clicked iframe link
+2025-08-29 12:08:19,072 | INFO | FramesPage | frames_page.py:76 | Switched to iframe
+2025-08-29 12:08:29,322 | ERROR | FramesPage | frames_page.py:100 | Timeout: TinyMCE editor not ready
+Traceback (most recent call last):
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\pages\frames_page.py", line 93, in wait_for_tinymce_ready
+    self.wait.until(
+    ~~~~~~~~~~~~~~~^
+        lambda d: d.execute_script(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            "return typeof tinymce !== 'undefined' && tinymce.activeEditor != null"
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-08-29 12:08:29,500 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250829_120829.png
+NoneType: None
+2025-08-29 12:08:31,642 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:11:02,679 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:11:04,433 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 12:11:04,435 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 12:11:05,926 | INFO | FramesPage | frames_page.py:47 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 12:11:06,830 | INFO | FramesPage | frames_page.py:61 | Clicked iframe link
+2025-08-29 12:11:06,893 | INFO | FramesPage | frames_page.py:76 | Switched to iframe
+2025-08-29 12:11:17,176 | ERROR | FramesPage | frames_page.py:105 | Timeout: TinyMCE editor not ready
+Traceback (most recent call last):
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\pages\frames_page.py", line 93, in wait_for_tinymce_ready
+    self.wait.until(
+    ~~~~~~~~~~~~~~~^
+        lambda d: d.execute_script(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-08-29 12:11:17,331 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250829_121117.png
+NoneType: None
+2025-08-29 12:11:19,473 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:03,454 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:05,255 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_javascript_alerts | browser=edge | headless=True
+2025-08-29 12:16:05,257 | INFO | TestAlerts | test_alerts.py:29 | Starting JS Alerts test
+2025-08-29 12:16:06,754 | INFO | AlertsPage | alerts_page.py:50 | Opened URL: https://the-internet.herokuapp.com/javascript_alerts
+2025-08-29 12:16:06,842 | INFO | AlertsPage | alerts_page.py:64 | Clicked JS Alert button
+2025-08-29 12:16:06,844 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Alert
+2025-08-29 12:16:06,846 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-29 12:16:06,908 | INFO | AlertsPage | alerts_page.py:78 | Clicked JS Confirm button
+2025-08-29 12:16:06,910 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS Confirm
+2025-08-29 12:16:06,912 | INFO | AlertsPage | alerts_page.py:122 | Dismissed alert
+2025-08-29 12:16:06,964 | INFO | AlertsPage | alerts_page.py:92 | Clicked JS Prompt button
+2025-08-29 12:16:06,966 | INFO | AlertsPage | alerts_page.py:158 | Retrieved alert text: I am a JS prompt
+2025-08-29 12:16:06,967 | INFO | AlertsPage | alerts_page.py:140 | Sent keys to prompt alert: Pedro was here!
+2025-08-29 12:16:06,970 | INFO | AlertsPage | alerts_page.py:107 | Accepted alert
+2025-08-29 12:16:06,995 | INFO | AlertsPage | alerts_page.py:177 | Retrieved result text: You entered: Pedro was here!
+2025-08-29 12:16:06,995 | INFO | TestAlerts | test_alerts.py:54 | JS Alerts test completed successfully
+2025-08-29 12:16:09,101 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:09,104 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:10,238 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_checkboxes | browser=edge | headless=True
+2025-08-29 12:16:10,239 | INFO | TestCheckboxes | test_checkboxes.py:27 | Starting checkboxes test
+2025-08-29 12:16:11,673 | INFO | CheckboxesPage | checkboxes_page.py:46 | Opened URL: https://the-internet.herokuapp.com/checkboxes
+2025-08-29 12:16:11,756 | INFO | CheckboxesPage | checkboxes_page.py:81 | Marked 1 checkbox(es)
+2025-08-29 12:16:11,777 | INFO | TestCheckboxes | test_checkboxes.py:37 | All checkboxes marked successfully
+2025-08-29 12:16:11,857 | INFO | CheckboxesPage | checkboxes_page.py:93 | Unmarked 2 checkbox(es)
+2025-08-29 12:16:11,876 | INFO | TestCheckboxes | test_checkboxes.py:43 | All checkboxes unmarked successfully
+2025-08-29 12:16:13,982 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:13,984 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:15,107 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_drag_and_drop | browser=edge | headless=True
+2025-08-29 12:16:15,108 | INFO | TestDragAndDrop | test_drag_and_drop.py:28 | Starting drag and drop test
+2025-08-29 12:16:16,560 | INFO | DragAndDropPage | drag_and_drop_page.py:46 | Opened URL: https://the-internet.herokuapp.com/drag_and_drop
+2025-08-29 12:16:17,139 | INFO | DragAndDropPage | drag_and_drop_page.py:66 | Performed drag and drop from Box A to Box B
+2025-08-29 12:16:17,140 | INFO | TestDragAndDrop | test_drag_and_drop.py:36 | Performed drag and drop action
+2025-08-29 12:16:17,190 | INFO | DragAndDropPage | drag_and_drop_page.py:89 | Box headers: A='B', B='A'
+2025-08-29 12:16:17,190 | INFO | TestDragAndDrop | test_drag_and_drop.py:42 | Box headers verified successfully after drag and drop
+2025-08-29 12:16:17,190 | INFO | TestDragAndDrop | test_drag_and_drop.py:44 | Drag and drop test completed successfully
+2025-08-29 12:16:19,268 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:19,270 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:20,387 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dropdown | browser=edge | headless=True
+2025-08-29 12:16:20,389 | INFO | TestDropdown | test_dropdown.py:28 | Starting dropdown test
+2025-08-29 12:16:21,865 | INFO | DropdownPage | dropdown_page.py:38 | Opened URL: https://the-internet.herokuapp.com/dropdown
+2025-08-29 12:16:21,951 | INFO | DropdownPage | dropdown_page.py:70 | Selected dropdown option by text: Option 1
+2025-08-29 12:16:21,990 | INFO | TestDropdown | test_dropdown.py:38 | Option 1 selected successfully
+2025-08-29 12:16:22,026 | INFO | DropdownPage | dropdown_page.py:81 | Selected dropdown option by value: 2
+2025-08-29 12:16:22,060 | INFO | TestDropdown | test_dropdown.py:44 | Option 2 selected successfully
+2025-08-29 12:16:22,060 | INFO | TestDropdown | test_dropdown.py:46 | Dropdown test completed successfully
+2025-08-29 12:16:24,151 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:24,153 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:25,273 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_dynamic_controls | browser=edge | headless=True
+2025-08-29 12:16:25,274 | INFO | TestDynamicControls | test_dynamic_controls.py:30 | Starting dynamic controls test
+2025-08-29 12:16:26,762 | INFO | DynamicControlsPage | dynamic_controls_page.py:43 | Opened URL: https://the-internet.herokuapp.com/dynamic_controls
+2025-08-29 12:16:31,982 | INFO | DynamicControlsPage | dynamic_controls_page.py:53 | Checkbox removed
+2025-08-29 12:16:33,997 | INFO | TestDynamicControls | test_dynamic_controls.py:39 | Checkbox removed successfully
+2025-08-29 12:16:37,107 | INFO | DynamicControlsPage | dynamic_controls_page.py:63 | Checkbox added
+2025-08-29 12:16:37,116 | INFO | TestDynamicControls | test_dynamic_controls.py:43 | Checkbox added successfully
+2025-08-29 12:16:40,402 | INFO | DynamicControlsPage | dynamic_controls_page.py:73 | Input enabled
+2025-08-29 12:16:40,412 | INFO | TestDynamicControls | test_dynamic_controls.py:48 | Input field enabled successfully
+2025-08-29 12:16:40,477 | INFO | DynamicControlsPage | dynamic_controls_page.py:88 | Typed in input: Testing dynamic controls
+2025-08-29 12:16:40,477 | INFO | TestDynamicControls | test_dynamic_controls.py:51 | Typed text into input field
+2025-08-29 12:16:43,682 | INFO | DynamicControlsPage | dynamic_controls_page.py:95 | Input disabled
+2025-08-29 12:16:43,709 | INFO | TestDynamicControls | test_dynamic_controls.py:55 | Input field disabled successfully
+2025-08-29 12:16:43,709 | INFO | TestDynamicControls | test_dynamic_controls.py:57 | Dynamic controls test completed successfully
+2025-08-29 12:16:45,850 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:45,851 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:47,607 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_file_upload | browser=edge | headless=True
+2025-08-29 12:16:47,609 | INFO | TestFileUpload | test_file_upload.py:31 | Opening File Upload page
+2025-08-29 12:16:49,192 | INFO | FileUploadPage | file_upload_page.py:48 | Opened URL: https://the-internet.herokuapp.com/upload
+2025-08-29 12:16:49,192 | INFO | TestFileUpload | test_file_upload.py:40 | Uploading file: C:\Users\pedrohli\Documents\GIT_commit.txt
+2025-08-29 12:16:49,233 | INFO | FileUploadPage | file_upload_page.py:66 | File path sent to input
+2025-08-29 12:16:49,471 | INFO | FileUploadPage | file_upload_page.py:69 | Upload button clicked
+2025-08-29 12:16:49,494 | INFO | FileUploadPage | file_upload_page.py:87 | Retrieved uploaded text: File Uploaded!
+2025-08-29 12:16:49,494 | INFO | TestFileUpload | test_file_upload.py:46 | File uploaded successfully and confirmed
+2025-08-29 12:16:51,583 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:51,584 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:52,733 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_iframe_text_editing | browser=edge | headless=True
+2025-08-29 12:16:52,735 | INFO | TestFrames | test_frames.py:31 | Starting iframe text editing test
+2025-08-29 12:16:54,187 | INFO | FramesPage | frames_page.py:46 | Opened URL: https://the-internet.herokuapp.com/frames
+2025-08-29 12:16:55,086 | INFO | FramesPage | frames_page.py:60 | Clicked iframe link
+2025-08-29 12:16:55,113 | INFO | FramesPage | frames_page.py:75 | Switched to iframe
+2025-08-29 12:16:55,125 | INFO | FramesPage | frames_page.py:97 | Cleared iframe body
+2025-08-29 12:16:55,132 | INFO | FramesPage | frames_page.py:115 | Set iframe text: Hello, this is a test!
+2025-08-29 12:16:55,132 | INFO | TestFrames | test_frames.py:49 | Inserted test text into iframe
+2025-08-29 12:16:55,175 | INFO | FramesPage | frames_page.py:133 | Retrieved iframe text: Your content goes here.
+2025-08-29 12:16:55,400 | ERROR | tests.driver | conftest.py:184 | Test FAILED. Screenshot saved: C:\Users\pedrohli\PEDRO\PROGRAMAÇÃO\Projects\Selenium\app2-The-Internet-herokuapp\screenshots\test_iframe_text_editing_edge_headless_20250829_121655.png
+NoneType: None
+2025-08-29 12:16:57,511 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:16:57,515 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:16:59,259 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_inputs | browser=edge | headless=True
+2025-08-29 12:16:59,260 | INFO | TestInputs | test_inputs.py:30 | Opening Inputs page
+2025-08-29 12:17:00,774 | INFO | InputsPage | inputs_page.py:47 | Opened URL: https://the-internet.herokuapp.com/inputs
+2025-08-29 12:17:00,823 | INFO | TestInputs | test_inputs.py:38 | Typing positive number: 12345
+2025-08-29 12:17:00,866 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: 12345
+2025-08-29 12:17:00,923 | INFO | TestInputs | test_inputs.py:45 | Typing negative number: -678
+2025-08-29 12:17:00,955 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: -678
+2025-08-29 12:17:00,989 | INFO | TestInputs | test_inputs.py:52 | Typing letters: abc (should be ignored)
+2025-08-29 12:17:01,018 | INFO | InputsPage | inputs_page.py:102 | Typed value into input: abc
+2025-08-29 12:17:01,052 | INFO | TestInputs | test_inputs.py:59 | Typing sequence of digits one by one: 42
+2025-08-29 12:17:01,106 | INFO | InputsPage | inputs_page.py:124 | Finished typing sequence: 42
+2025-08-29 12:17:01,118 | INFO | TestInputs | test_inputs.py:64 | Inputs page test completed successfully
+2025-08-29 12:17:03,213 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:17:03,215 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:17:04,336 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_positive | browser=edge | headless=True
+2025-08-29 12:17:04,338 | INFO | TestLogin | test_login.py:29 | Starting positive login test
+2025-08-29 12:17:05,923 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-29 12:17:06,021 | INFO | LoginPage | login_page.py:86 | Entered password: ********************
+2025-08-29 12:17:06,075 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-29 12:17:06,407 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: You logged into a secure area!
+×
+2025-08-29 12:17:06,407 | INFO | TestLogin | test_login.py:40 | Flash message received: You logged into a secure area!
+×
+2025-08-29 12:17:06,407 | INFO | TestLogin | test_login.py:45 | Positive login test passed
+2025-08-29 12:17:08,523 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:17:08,524 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:17:09,635 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_login_negative | browser=edge | headless=True
+2025-08-29 12:17:09,636 | INFO | TestLogin | test_login.py:67 | Starting negative login test
+2025-08-29 12:17:11,213 | INFO | LoginPage | login_page.py:51 | Opened URL: https://the-internet.herokuapp.com/login
+2025-08-29 12:17:11,366 | INFO | LoginPage | login_page.py:86 | Entered password: *************
+2025-08-29 12:17:11,699 | INFO | LoginPage | login_page.py:100 | Clicked login button
+2025-08-29 12:17:11,729 | INFO | LoginPage | login_page.py:119 | Flash message retrieved: Your username is invalid!
+×
+2025-08-29 12:17:11,729 | INFO | TestLogin | test_login.py:77 | Flash message received: Your username is invalid!
+×
+2025-08-29 12:17:11,730 | INFO | TestLogin | test_login.py:82 | Negative login test passed
+2025-08-29 12:17:13,832 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully
+2025-08-29 12:17:13,835 | INFO | driver_factory | conftest.py:67 | Initializing WebDriver | browser=edge headless=True window_size =1366,768 timeout=10
+2025-08-29 12:17:14,991 | INFO | tests.driver | conftest.py:165 | WebDriver started for test: test_multiple_windows | browser=edge | headless=True
+2025-08-29 12:17:14,992 | INFO | TestWindows | test_windows.py:31 | Starting multiple windows test
+2025-08-29 12:17:16,511 | INFO | WindowsPage | windows_page.py:47 | Opened URL: https://the-internet.herokuapp.com/windows
+2025-08-29 12:17:16,620 | INFO | WindowsPage | windows_page.py:63 | Clicked 'Click Here' link to open new window
+2025-08-29 12:17:16,625 | INFO | WindowsPage | windows_page.py:78 | Switched to new window
+2025-08-29 12:17:16,625 | INFO | TestWindows | test_windows.py:44 | Switched to newly opened window
+2025-08-29 12:17:16,762 | INFO | WindowsPage | windows_page.py:92 | Heading text in current window: New Window
+2025-08-29 12:17:16,772 | INFO | TestWindows | test_windows.py:49 | Heading text verified successfully in new window
+2025-08-29 12:17:16,790 | INFO | WindowsPage | windows_page.py:103 | Closed current window
+2025-08-29 12:17:16,794 | INFO | WindowsPage | windows_page.py:112 | Switched back to window: E62E8A76509B24478BE6A3E58884B62D
+2025-08-29 12:17:16,796 | INFO | TestWindows | test_windows.py:55 | Switched back to original window successfully
+2025-08-29 12:17:16,796 | INFO | TestWindows | test_windows.py:57 | Multiple windows test completed successfully
+2025-08-29 12:17:18,900 | INFO | tests.driver | conftest.py:191 | WebDriver quit successfully

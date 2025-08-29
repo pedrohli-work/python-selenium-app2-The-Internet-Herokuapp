@@ -1,0 +1,6 @@
+streamlit>=1.30
+selenium>=4.14
+pytest>=8.4
+pytest-json-report>=1.5
+pytest-html>=4.1
+webdriver-manager>=4.0
