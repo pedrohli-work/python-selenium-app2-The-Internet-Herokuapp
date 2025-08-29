@@ -20,6 +20,7 @@ It provides a **Streamlit interface** to run automated tests, display live outpu
 - Handles **iframe text editing** tests using TinyMCE editor.
 
 ## Known Limitations
+- For EdgeWebDriver, Streamlit app can not be deployed in the Cloud. Due to WebDriver issues with the Streamlit Cloud
 - TinyMCE editor in **free Tiny Cloud plan** may reach monthly editor load limits, affecting iframe tests.
 - Some iframe tests may fail if usage limits are exceeded.
 - Next iteration will explore **self-hosted TinyMCE** for full test stability.
