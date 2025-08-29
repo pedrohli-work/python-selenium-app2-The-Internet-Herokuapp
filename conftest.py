@@ -1,4 +1,5 @@
 from __future__ import annotations
+import platform
 from pathlib import Path
 from datetime import datetime
 import pytest
@@ -73,19 +74,31 @@ def _create_driver():
     # Edge driver setup
     # ----------------------------
     if browser == "edge":
-        edge_path = CONFIG.get("drivers", {}).get("edge", {}).get("path")
+        # Detect OS
+        system = platform.system().lower()  # 'windows', 'linux', 'darwin'
+
+        # Get driver path for the current OS
+        edge_path = CONFIG.get("drivers", {}).get("edge", {}).get(system)
         if not edge_path:
-            raise RuntimeError("Edge driver path not defined in config.json under drivers.edge.path")
+            raise RuntimeError(f"Edge driver path not defined in config.json for {system}")
         if not Path(edge_path).exists():
-            raise FileNotFoundError(f"Edge driver not found at: {edge_path}")
-        
+            raise FileNotFoundError(f"Edge driver not found for {system} at: {edge_path}")
+
+        # Configure Edge options
         options = EdgeOptions()
         if headless:
             options.add_argument("--headless=new")
         options.add_argument(f"--window-size={width},{height}")
 
+        # Create Edge WebDriver
         service = EdgeService(executable_path=edge_path)
         drv = webdriver.Edge(service=service, options=options)
+
+    # Aqui você pode manter outros browsers se quiser (Chrome, Firefox)...
+
+    drv.set_window_size(width, height)
+    drv.set_page_load_timeout(timeout)
+    return drv
     
     # ----------------------------
     # Chrome driver setup
