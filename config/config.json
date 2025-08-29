@@ -8,7 +8,8 @@
 
     "drivers": {
         "edge": {
-            "path": "C:/Users/pedrohli/PEDRO/PROGRAMAÇÃO/Projects/Selenium/app2-The-Internet-herokuapp/drivers/edgedriver_win64/msedgedriver.exe"
+            "windows": "drivers/edgedriver_win64/msedgedriver.exe",
+            "linux": "drivers/edgedriver_linux/msedgedriver"
         }
     },
     "credentials": {
