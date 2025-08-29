@@ -94,12 +94,6 @@ def _create_driver():
         service = EdgeService(executable_path=edge_path)
         drv = webdriver.Edge(service=service, options=options)
 
-    # Aqui você pode manter outros browsers se quiser (Chrome, Firefox)...
-
-    drv.set_window_size(width, height)
-    drv.set_page_load_timeout(timeout)
-    return drv
-    
     # ----------------------------
     # Chrome driver setup
     # ----------------------------
