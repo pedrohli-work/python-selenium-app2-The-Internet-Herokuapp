@@ -8,7 +8,8 @@
 
     "drivers": {
         "edge": {
-          "path": "drivers/edgedriver_linux/msedgedriver"
+            "windows": "drivers/edgedriver_win64/msedgedriver.exe",
+            "linux": "drivers/edgedriver_linux/msedgedriver"
         },
         "chrome": {
           "path": "drivers/chromedriver/chromedriver"
