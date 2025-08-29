@@ -78,19 +78,27 @@ def _create_driver():
     # Edge driver setup
     # ----------------------------
     if browser == "edge":
-        from webdriver_manager.microsoft import EdgeChromiumDriverManager
-
-        edge_path = CONFIG.get("drivers", {}).get("edge", {}).get("path")
-        if not edge_path or not Path(edge_path).exists():
-            edge_path = EdgeChromiumDriverManager().install()
-
+        # Detecta o SO para escolher o driver certo
+        system = platform.system().lower()  # windows / linux / darwin
+    
+        # Pega o path do config.json
+        edge_path = CONFIG.get("drivers", {}).get("edge", {}).get(system)
+    
+        if not edge_path:
+            raise RuntimeError(f"Edge driver path not defined in config.json for {system}")
+        if not Path(edge_path).exists():
+            raise FileNotFoundError(f"Edge driver not found at {edge_path}")
+    
+        # Configura opções do Edge
         options = EdgeOptions()
         if headless:
             options.add_argument("--headless=new")
         options.add_argument(f"--window-size={width},{height}")
-
+    
+        # Cria o WebDriver apontando pro binário do repo
         service = EdgeService(executable_path=edge_path)
         drv = webdriver.Edge(service=service, options=options)
+
 
     # ----------------------------
     # Chrome driver setup
