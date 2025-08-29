@@ -1,0 +1,21 @@
+{
+    "browser": "edge",
+    "headless": true,
+    "timeout": 10,
+    "window_size": "1366,768",
+
+    "base_url": "https://the-internet.herokuapp.com",
+
+    "drivers": {
+        "edge": {
+            "path": "C:/Users/pedrohli/PEDRO/PROGRAMAÇÃO/Projects/Selenium/app2-The-Internet-herokuapp/drivers/edgedriver_win64/msedgedriver.exe"
+        }
+    },
+    "credentials": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    },
+    "logging":{
+        "level": "DEBUG"
+    }
+}
