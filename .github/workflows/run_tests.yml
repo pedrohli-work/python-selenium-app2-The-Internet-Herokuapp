@@ -1,0 +1,51 @@
+name: Run Selenium Tests
+
+on:
+  workflow_dispatch: # permite disparar manualmente via GitHub ou Streamlit
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Passo 1: checkout do código
+      - uses: actions/checkout@v3
+
+      # Passo 2: configurar Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      # Passo 3: instalar dependências Python e libs do sistema
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y wget unzip xvfb libnss3 libxss1 libgtk-3-0
+
+      # Passo 4: instalar EdgeDriver Linux
+      - name: Install EdgeDriver
+        run: |
+          wget https://msedgedriver.azureedge.net/LATEST_RELEASE -O LATEST
+          EDGE_VER=$(cat LATEST)
+          wget https://msedgedriver.azureedge.net/$EDGE_VER/edgedriver_linux64.zip
+          unzip edgedriver_linux64.zip -d ./drivers/edgedriver_linux/
+          chmod +x ./drivers/edgedriver_linux/msedgedriver
+
+      # Passo 5: rodar testes Selenium
+      - name: Run Selenium tests
+        run: |
+          mkdir -p reports
+          pytest tests --html=reports/report.html --self-contained-html
+
+      # Passo 6: salvar relatório como artifact
+      - name: Upload report
+        uses: actions/upload-artifact@v3
+        with:
+          name: selenium-report
+          path: reports/report.html
